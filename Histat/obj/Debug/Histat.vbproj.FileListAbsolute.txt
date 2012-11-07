@@ -1,0 +1,29 @@
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.vbproj.ResolveComReference.cache
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.Anmeldung.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.Dateiauswahl.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.Metadaten1.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.Metadaten2.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.Metadaten3.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.Resources.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.Projektauswahl.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.StartForm.resources
+C:\Users\marrek\AppData\Local\Temporary Projects\Histat\obj\Debug\Histat.vbproj.GenerateResource.Cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\Histat\obj\Debug\Histat.vbproj.ResolveComReference.cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.vbproj.ResolveComReference.cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Debug\Histat.exe
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Debug\Histat.pdb
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Debug\Histat.xml
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.Anmeldung.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.Dateiauswahl.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.Metadaten1.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.Metadaten2.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.Metadaten3.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.Resources.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.Projektauswahl.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.StartForm.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.vbproj.GenerateResource.Cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.exe
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.xml
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Debug\Histat.pdb

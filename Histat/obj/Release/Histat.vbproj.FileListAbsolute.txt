@@ -1,0 +1,17 @@
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.vbproj.ResolveComReference.cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Release\Histat.exe
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Release\Histat.pdb
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Release\Histat.xml
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\ResolveAssemblyReference.cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.Anmeldung.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.Dateiauswahl.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.Metadaten1.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.Metadaten2.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.Metadaten3.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.Resources.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.Projektauswahl.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.StartForm.resources
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.vbproj.GenerateResource.Cache
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.exe
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.xml
+C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\obj\Release\Histat.pdb
