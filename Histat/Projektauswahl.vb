@@ -160,6 +160,7 @@ Public Class Projektauswahl
         '
         'cbID_Zeit
         '
+        Me.cbID_Zeit.Enabled = False
         Me.cbID_Zeit.FormattingEnabled = True
         Me.cbID_Zeit.Location = New System.Drawing.Point(108, 340)
         Me.cbID_Zeit.Name = "cbID_Zeit"
@@ -224,6 +225,18 @@ Public Class Projektauswahl
                 Projektname = Me.cbProjekt.Text
                 Projektautor = Me.tbAutor.Text
                 Projektbeschreibung = Me.tbBeschreibung.Text
+
+                With cbID_Zeit
+                    If .SelectedValue Is Nothing Then
+                        MsgBox("Bitte geben Sie eine Zeit an!", , "Histat-Import")
+                        cbID_Zeit.Focus()
+                        Exit Sub
+                    Else
+                        ID_Zeit = CInt(DirectCast(.SelectedItem, DataRowView)("ID_Zeit"))
+                    End If
+                End With
+
+
                 Me.Hide()
                 md1 = New Metadaten1
                 md1.Show()
@@ -257,6 +270,7 @@ Public Class Projektauswahl
                         "Bearbeiter_im_ZA, Bemerkungen, Zugangsklasse, Fundort, Anmerkungsteil, Anzahl_Zeitreihen, " & _
                         "Zeitraum, exportable, datei_name, chdate FROM Aka_Projekte " & _
                         "WHERE ID_Thema = " & ID_Thema & ";"
+                Me.cbID_Zeit.Enabled = True
             Else
                 sSql = "SELECT ID_Projekt, ID_Zeit, Projektautor, Projektname, Projektbeschreibung, Anzahl_Zeitreihen, exportable, chdate FROM Aka_Projekte " & _
                     "WHERE ID_Thema = " & ID_Thema & ";"
@@ -293,10 +307,9 @@ Public Class Projektauswahl
             dt.PrimaryKey = key
 
             With cbID_Zeit
-                .DataSource = ds.Tables("DS_Aka_Zeiten")
                 .DisplayMember = "Zeit"
                 .ValueMember = "ID_Zeit"
-                .SelectedIndex = -1
+                .DataSource = ds.Tables("DS_Aka_Zeiten")
             End With
 
             cbID_Zeit.Text = ""

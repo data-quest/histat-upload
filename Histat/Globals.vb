@@ -82,6 +82,7 @@ Module Globals
             quab = New Quabelle(xlsArr(0))
             With quab
                 bis = ""
+                von = ""
                 If Not .test() Then
                     checkXlTabs = False
                 Else
@@ -94,7 +95,6 @@ Module Globals
                     bis = .getItem(.RowCount, 1)
                 End If
 
-                von = ""
                 For i = 1 To ub
                     xlFile = xlsArr(i)
                     l = InStrRev(xlFile, "\")
@@ -102,7 +102,7 @@ Module Globals
                     da.SBar.Refresh()
 
                     .setBook(xlsArr(i))
-                    If Not quab.test() Then
+                    If Not .test() Then
                         checkXlTabs = False
                     Else
                         azr = azr + .ColumnCount - 1

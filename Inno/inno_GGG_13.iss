@@ -2,13 +2,14 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Histat"
-#define MyAppVersion "1.2"
+#define MyAppVersion "1.3"
 #define MyAppPublisher "data-quest Suchi und Berg GmbH"
 #define MyAppExeName "Histat.exe"
 
 [IconFilename]
 
-
+[InstallDelete]
+Type: files; Name: {app}\{#MyAppExeName}
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -25,6 +26,8 @@ OutputBaseFilename=setup
 Compression=lzma
 SolidCompression=yes
 
+
+
 [Languages]
 Name: german; MessagesFile: compiler:Languages\German.isl
 
@@ -33,7 +36,7 @@ Name: desktopicon; Description: {cm:CreateDesktopIcon}; GroupDescription: {cm:Ad
 
 [Files]
 Source: C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Release\Histat.exe; DestDir: {app}
-Source: C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Release\Histat.log; DestDir: {app}
+Source: C:\Users\marrek\Documents\Visual Studio 2008\Projects\Histat\Histat\bin\Release\Histat.log; Flags: onlyifdoesntexist; DestDir: {app}
 Source: Q:\Projekte\ZA-HistStat-Upload\Histat\Histat\data-quest.ico; DestDir: {app}
 Source: C:\Windows\assembly\GAC\Microsoft.Office.Interop.Excel\12.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll; DestDir: {app}; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files

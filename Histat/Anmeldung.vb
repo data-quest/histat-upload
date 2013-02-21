@@ -182,12 +182,12 @@ Public Class Anmeldung
                 Exit Sub
             End If
 
-            ID_Zeit = cbID_Zeit.SelectedValue
-            If ID_Zeit.Equals(System.DBNull.Value) Then
+            If cbID_Zeit.SelectedValue Is Nothing Then
                 MsgBox("Bitte geben Sie eine Zeit an!", , "Histat-Import")
                 cbID_Zeit.Focus()
                 Exit Sub
             End If
+            ID_Zeit = cbID_Zeit.SelectedValue
 
             If IsNothing(md1) Then
                 md1 = New Metadaten1()
@@ -250,9 +250,9 @@ Public Class Anmeldung
             conn.Close()
 
             With cbID_Zeit
-                .DataSource = ds.Tables("DS_Aka_Zeiten")
                 .DisplayMember = "Zeit"
                 .ValueMember = "ID_Zeit"
+                .DataSource = ds.Tables("DS_Aka_Zeiten")
                 .SelectedIndex = -1
             End With
 
@@ -266,8 +266,6 @@ Public Class Anmeldung
 
     End Sub
 
-    Private Sub cbID_Zeit_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cbID_Zeit.SelectedIndexChanged
 
-    End Sub
-End Class
+ End Class
 

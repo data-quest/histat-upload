@@ -499,7 +499,7 @@ Module DBImport
                    "ID_Projekt, ID_Thema, ID_Zeit, Projektautor, Projektname, Projektbeschreibung, Veroeffentlichung, " & _
                    "Untersuchungsgebiet, Quellen, Untergliederung, ZA_Studiennummer, Datum_der_Archivierung, Datum_der_Bearbeitung, " & _
                    "Publikationsjahr, Bearbeiter_im_ZA, Bemerkungen, Zugangsklasse, Anzahl_Zeitreihen, Zeitraum, exportable, Fundort, " & _
-                   "Anmerkungsteil, datei_inhalt, datei_name) Values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", conn)
+                   "Anmerkungsteil, datei_inhalt, datei_name) Values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", conn)
             End If
             '
             param = New OdbcParameter("@ID_Projekt", OdbcType.VarChar, 32)
